@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int x, y, z;
+    printf("\n Enter three different numbers to test the biggest number among three numbers");
+    scanf("%d%d%d",&x,&y,&z);
+    printf ("\n x=%d,y=%d,z=%d",x,y,z);
+    (x>y&&y>z)? printf ("\n %d is biggest number",x):printf ("\n %d is biggest number",y);printf ("\n %d is biggest number",z);
+    
+    return 0;
+}
