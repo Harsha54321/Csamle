@@ -1,0 +1,33 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a, b;
+    char op;
+    printf ("\n Enter any two numbers to perform arthemetic operations");
+    scanf ("%d%d",&a,&b);
+    printf ("\n a=%d,b=%d",a,b);
+    printf ("\n Enter any arthemetic operation[+,-,*/,%]");
+    scanf ("%c",&op);
+    printf ("\n op=%c",op);
+    switch (op){
+        case'+':
+            printf ("\n Addition of two numbers=%d",a+b);
+            break;
+        case'-':
+            printf ("\n Subtraction of two numbers=%d",a-b);
+            break;
+        case'*':
+            printf ("\n Multiplication of two numbers=%d",a*b);
+            break;
+        case'/':
+            printf ("\n Division of two numbers=%d",a/b);
+            break;
+        case'%':
+            printf ("\n Modulus of two numbers=%d",a%b);
+            break;
+        default:printf ("\n Invalid operator");
+    }
+    return 0;
+}
