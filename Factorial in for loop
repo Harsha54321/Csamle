@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i,n, f=1;
+    printf("Enter any number");
+    scanf ("%d",&n);
+    printf ("\n%d",n);
+    for (i=2;i<=n;i++){
+        f=f*i;
+    }
+    printf ("\n factorial of %d is%d",n,f);
+    
+    return 0;
+}
