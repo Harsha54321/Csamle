@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i=2,n;
+    printf("Enter how many numbers you want to print even series");
+    scanf ("%d",&n);
+    printf ("\n%d",n);
+    while(i<=n){
+        printf ("\n %d",i);
+            i=i+2;
+    }
+    
+    return 0;
+}
