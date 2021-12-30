@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n, t, arm=0,x;
+    printf("\n Enter any number to find whether it is armstrong or not");
+    scanf ("%d",&n);
+    printf ("\n n= %d",n);
+    x=n;
+    while(n>0){
+        t=n%10;
+        arm=(t*t*t)+arm;
+        n=n/10;
+    }
+    if(arm==x)
+        printf ("\n %d is armstrong number",x);
+    else
+        printf ("\n %d is not armstrong number",x);
+    
+    return 0;
+}
