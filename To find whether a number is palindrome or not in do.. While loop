@@ -3,7 +3,7 @@
 
 int main() {
     // Write C code here
-    int r=2,n,t, x;
+    int r=0,n,t, x;
     printf ("\nEnter any number");
     scanf ("%d",&n);
     printf ("\n n=%d",n);
