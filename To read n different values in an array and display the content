@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a[10],n, i;
+    printf ("\nEnter how many elements you want to store in an array");
+    scanf ("%d",&n);
+    printf ("\nn=%d",n);
+    for(i=0;i<n;i++){
+        printf ("\nEnter a[%d]value",i);
+        scanf ("%d",&a[i]);
+        printf("a[i]=%d",a[i]);
+    }
+    printf ("\nArray elements are:");
+    for (i=0;i<n;i++){
+        printf ("\na[%d]=%d",i,a[i]);
+    }
+    
+    return 0;
+}
