@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int fact(int);
+void main() {
+    // Write C code here
+    int n, f;
+    printf("\n enter any number:");
+    scanf ("%d",&n);
+    printf ("\nn=%d",n);
+    f=fact(n);
+    printf ("\nfactorial of given number=%d",f);
+}
+int fact(int n){
+    if(n==0||n==1)
+        return 1;
+    else
+        printf ("\n n is%d",n);
+        int f=n*fact(n-1);
+        printf ("\n f is%d",f);
+        return f;
+}
