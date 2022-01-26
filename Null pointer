@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+    // Write C code here
+    int a=4, *p=NULL;
+    p=&a;
+    if(*p!=NULL){
+        printf ("\nvalue of pointer=%d",*p);
+    }
+    else{
+        printf("\ninvalid pointer");
+    }
+    
+    return 0;
+}
