@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+    // Write C code here
+    int a=3, *p, **pp;
+    p=&a;
+    pp=&p;
+    printf("\naddress of a=%u",p);
+    printf ("\naddress of p=%u",pp);
+    printf ("\nvalue stored at p=%d",*p);
+    printf ("\nvalue stored at pp=%d",**pp);
+    
+    return 0;
+}
