@@ -1,0 +1,37 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a[10][10],n,i,j,b[10][10],c[10][10];
+    printf("\nenter the size of the matrix");
+    scanf ("%d",&n);
+    printf("\nenter %d elements in A matrix");
+    for (i=1;i<=n;i++){
+        for (j=1;j<=n;j++){
+            printf ("\nenter a[%d][%d] element",i,j);
+            scanf ("%d",&a[i][j]);
+        }
+    }
+    printf ("\nenter %d elements in B matrix",n*n);
+    for (i=1;i<=n;i++){
+        for (j=1;j<=n;j++){
+            printf ("\nenter b[%d][%d] element",i,j);
+            scanf ("%d",&b[i][j]);
+        }
+    }
+    for (i=1;i<=n;i++){
+        for (j=1;j<=n;j++){
+            c[i][j]=a[i][j]+b[i][j];
+        }
+    }
+    printf ("\naddition of two matrices are");
+    for (i=1;i<=n;i++){
+        for (j=1;j<=n;j++){
+            printf ("\t%d",c[i][j]);
+        }
+        printf ("\n");
+    }
+    
+    return 0;
+}
