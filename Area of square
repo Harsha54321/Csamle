@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float side;
+    printf("\nenter two numbers to calculate area of square");
+    scanf("%f",&side);
+    printf ("\narea of square=%f",side*side);
+    
+    return 0;
+}
