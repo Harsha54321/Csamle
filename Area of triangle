@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float base, height;
+    printf("\nenter two numbers to calculate area of triangle");
+    scanf("%f%f",&base,&height);
+    printf ("\narea of triangle=%f",0.5*base*height);
+    
+    return 0;
+}
